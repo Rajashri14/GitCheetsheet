@@ -1,5 +1,5 @@
 
-Git commands cheatsheet :-
+Git commands cheatsheet  :-
 
 1. git init-----> powers your folder to be managed by git and initiates a new empty repository. 
                It also creates a .git folder that has all the relevant logic to manage versions of your project
