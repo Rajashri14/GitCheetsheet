@@ -1,10 +1,10 @@
 
 Git commands cheatsheet :-
 
-git init-----> powers your folder to be managed by git and initiates a new empty repository. 
+1. git init-----> powers your folder to be managed by git and initiates a new empty repository. 
                It also creates a .git folder that has all the relevant logic to manage versions of your project
 
-rm -rf .git---> removes .git folder . If we don't want to track changes anymore by git.
+2. rm -rf .git---> removes .git folder . If we don't want to track changes anymore by git.
 
 There are 3 areas in which your file changes are done--->
 
@@ -23,52 +23,55 @@ There are 3 areas in which your file changes are done--->
 
 
 
- `git add <file_name>`----> moving untracked files from the working area to the staging area
+ 3. `git add <file_name>`----> moving untracked files from the working area to the staging area
 
- `git rm --cached <file_name>----> moving files from staging area back to working area
+ 4. `git rm --cached <file_name>`----> moving files from staging area back to working area
 
- `commit '----> is a particular version of the project.It captures a snapshot of the project's staged changes and creates a version out of it.
+ 5. `commit `----> is a particular version of the project.It captures a snapshot of the project's staged changes and creates a version out of it.
 
-`git clone`----> cloning repositoryy on our local machine
+6. `git clone`----> cloning repositoryy on our local machine
                git clone <some link>
 
-'git commit'----> it will open vim editor
+7. `git commit`----> it will open vim editor
                   press i and type the commit message 
                   press esc the colon to save the changes 
                   press wq to exit the vim editor.
 
-'git log`----> this command list all the commits and details about them.(every commit have unique commit id using we can go back to that
+8. `git log`----> this command list all the commits and details about them.(every commit have unique commit id using we can go back to that
                particular commit.
 
-`git restore <file_name>' ----> it removes all files changes from the statging area to be committed.
+9. `git restore <file_name>` ----> it removes all files changes from the statging area to be committed.
                                 This can be useful if did some dirty piece of code and now no more want it.
                                 Instead of deleting every change line by line, we can restore it or you can say last clean version of 
                                 the files can be restored.
 
-git restore --staged <file_name>----> it removes file from changes from staging area to the working area.
+10. `git restore --staged <file_name>`----> it removes file from changes from staging area to the working area.
                                       this only works if changes are in your statging area.
 
-git diff commit1id commit2id----> gives the difference of all the file changes between two commits
+11. `git diff commit1id commit2id`----> gives the difference of all the file changes between two commits
 
-'git commit -m "<your commit message>"'----> If we want to avoid opening a text editor like vim/nano to add commit message we can use this command.
+12. `git commit -m "<your commit message>"`----> If we want to avoid opening a text editor like vim/nano to add commit message we can use this command.
 
-'git remote'---> list down all the remote connection names
+13. `git remote`---> list down all the remote connection names
 
 Remote Connection :----> It helps you to link to git repositories for uploading and downloading changes from each other
 
-'git remote add <name of the remote connection> <link of the remote>-----> this command helps us to add a new link to the remote repo and give a name to it.
+14. `git remote add <name of the remote connection> <link of the remote>`-----> this command helps us to add a new link to the remote repo and give a name to it.
 
-git remote rm <name of remote>----> this command deletes a remote connection
+15. `git remote rm <name of remote>`----> this command deletes a remote connection
 
-git remote rename <old_name> <new_name>----> this command renames the remote connection
+16. `git remote rename <old_name> <new_name>`----> this command renames the remote connection
 
 Note: The name of the remote connection is always used to establish communication between repos
+
+17. `git push`---> upload local repo content to remote repo
+            git push origin 
+            
 
 ls --> list the files in current directory
 la -a ---> list all the files (hidden files also)
 
 
-git push---> upload local repo content to remote repo
-            git push origin 
+
             
 
