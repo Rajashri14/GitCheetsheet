@@ -45,7 +45,8 @@ There are 3 areas in which your file changes are done--->
                                 Instead of deleting every change line by line, we can restore it or you can say last clean version of 
                                 the files can be restored.
 
-git restore --staged <file_name>
+git restore --staged <file_name>----> it removes file from changes from staging area to the working area.
+                                      this only works if changes are in your statging area.
 
 ls --> list the files in current directory
 la -a ---> list all the files (hidden files also)
