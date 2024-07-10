@@ -1,0 +1,25 @@
+git clone----> cloning repositlsory on our local machine
+   git clone <some link>
+
+ls --> list all the files
+la -a ---> list all the files (hidden files also)
+
+status of files in git----------.
+1) untracked---> new files that git dosen't track
+
+2) modified---> changed
+
+3)staged---> file is ready to be committed
+
+4) unmodified---> unchanged
+
+
+add ---> adds new or changed files in your working directory to the git staging area.
+      git add <file_name>
+
+git commit----> it is the record of change
+
+git push---> upload local repo content to remote repo
+            git push origin main
+
+git
