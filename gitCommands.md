@@ -65,7 +65,16 @@ Remote Connection :----> It helps you to link to git repositories for uploading 
 Note: The name of the remote connection is always used to establish communication between repos
 
 17. `git push`---> upload local repo content to remote repo
-            git push origin 
+            git push origin
+18. git log --oneline.
+
+Revert the changes :-
+git reset --hard <hascode of previous commit>
+
+remove changes from the particular commit :- 
+git revert <hashcode of particular commit>
+
+
             
 
 ls --> list the files in current directory
