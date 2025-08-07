@@ -67,12 +67,15 @@ Note: The name of the remote connection is always used to establish communicatio
 17. `git push`---> upload local repo content to remote repo
             git push origin
 18. git log --oneline.
-
+------------------------------------------------------------------------------------------------
 Revert the changes :-
 git reset --hard <hascode of previous commit>
 
 remove changes from the particular commit :- 
-git revert <hashcode of particular commit>
+git revert <hashcode of particular commit> chnages will be undo(commit will not delete)
+After that do ---? git add .
+commit the changes :- git commit -m "Commited the changes.
+
 
 
             
